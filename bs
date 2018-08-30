@@ -1,0 +1,51 @@
+
+const books = [
+    {
+      title: 'book1',
+      genre: 'genre1',
+      author: 'author1',
+      read: false
+    },
+    {
+      title: 'book2',
+      genre: 'genre2',
+      author: 'author2',
+      read: false
+    },
+    {
+      title: 'book3',
+      genre: 'genre3',
+      author: 'author3',
+      read: false
+    },
+    {
+      title: 'book4',
+      genre: 'genre4',
+      author: 'author4',
+      read: false
+    },
+    {
+      title: 'book5',
+      genre: 'genre5',
+      author: 'author5',
+      read: false
+    },
+    {
+      title: 'book6',
+      genre: 'genre6',
+      author: 'author6',
+      read: false
+    },
+    {
+      title: 'book7',
+      genre: 'genre7',
+      author: 'author7',
+      read: false
+    },
+    {
+      title: 'book8',
+      genre: 'genre8',
+      author: 'author8',
+      read: false
+    }
+  ];
