@@ -80,5 +80,4 @@ function router() {
   return adminRouter;
 }
 
-
 module.exports = router;
