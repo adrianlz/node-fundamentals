@@ -1,5 +1,5 @@
 const express = require('express');
-const sql = require('mssql');
+// const sql = require('mssql');
 const debug = require('debug')('app:bookRoutes');
 const { MongoClient, ObjectID } = require('mongodb');
 
@@ -80,7 +80,7 @@ function router(nav) {
 
           const col = await db.collection('books');
 
-          const book = await col.findOne({_id: new ObjectID(id)});
+          const book = await col.findOne({ _id: new ObjectID(id) });
           debug(book);
           res.render('bookView', {
             nav,

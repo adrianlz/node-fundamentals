@@ -36,7 +36,7 @@ const nav = [
 ];
 
 const bookRouter = require('./src/routes/bookRoutes')(nav);
-const adminRouter = require('./src/routes/adminRoutes')(nav);
+const adminRouter = require('./src/routes/adminRoutes')();
 
 app.use('/books', bookRouter);
 app.use('/admin', adminRouter);
