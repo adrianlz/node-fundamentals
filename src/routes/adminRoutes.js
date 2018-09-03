@@ -9,12 +9,14 @@ const books = [
     title: 'book1',
     genre: 'genre1',
     author: 'author1',
+    bookId: 656,
     read: false
   },
   {
     title: 'book2',
     genre: 'genre2',
     author: 'author2',
+    bookId: 24200,
     read: false
   },
   {
